@@ -17,11 +17,10 @@ pull:
 - prefect.deployments.steps.git_clone:
     repository: https://github.com/PlainB0b/prefect_cert_day.git
     branch: pacc
-    token:
 
 # the deployments section allows you to provide configuration for deploying flows
 deployments:
-- name: capstone-deployment
+- name: capstone-weather
   version: null
   tags: []
   description: null
